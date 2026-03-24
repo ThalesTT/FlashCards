@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --text: #1a1d21;
+  --secondary-text: #637381;
+  --background: #e3e3e3;
+  --borders: #e1e5e9;
+  --primary: #007ad8;
+  --hover: #0062af;
+  --focus: #3da9ff;
+}
+:root[data] {
+  --text: ##e0e0e0;
+  --secondary-text: #a0a0a0;
+  --background: ##1e1f20;
+  --borders: #333333;
+}
+body {
+  background-color: var(--background);
+}
+h1 {
+  color: var(--primary);
+}
