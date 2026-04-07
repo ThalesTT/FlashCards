@@ -19,6 +19,11 @@
   --background-dark: #181919;
   --borders: #333333;
 }
+html {
+  font-size: 62.5%; /* 62.5% of 16px is 10px */
+  font-family: 'Space Grotesk', sans-serif;
+  letter-spacing: -0.5px;
+}
 body {
   background-color: var(--background);
   color: var(--text);

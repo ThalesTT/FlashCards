@@ -5,8 +5,15 @@
   max-width: 98rem;
   margin: 0 auto;
   border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Garante que os itens fiquem em linha se houver mais de um */
+  align-items: center; /* Centraliza o item no eixo cruzado */
 }
 .content {
+  border: 2px solid green;
+  width: 100%;
+  /* margin: 3.2rem 0; */
   margin: 3.2rem;
   text-align: center;
 }
